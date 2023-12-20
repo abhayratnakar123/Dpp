@@ -11,9 +11,6 @@ export const ServiceCard = ({ imageUrl , title, description, link }:any) => {
       <motion.div
         className="bg-gray-200 rounded-lg shadow-md transition-transform hover:shadow-lg hover:scale-105 hover:bg-gray-100 mb-10"
         whileHover={{ scale: 1.05, backgroundColor: "#f0f0f0" }}
-        whileTap={{ scale: 50.95, opacity: 0, transition: { duration: 2 } }}
-
-
       >
         <img
           src={imageUrl}
